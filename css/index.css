@@ -1,0 +1,233 @@
+body {
+    margin: 35px 50px 0 50px;
+}
+
+.header {
+    height: 52px;
+    background-color: #25A599;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header .navbar {
+    padding: 0 !important;
+    top: 20%;
+    left: 2%;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.input-group {
+    flex: 10;
+
+}
+
+.form-control {
+    border-radius: 22px;
+}
+
+.form-select {
+    flex: 3;
+    margin-right: 16px !important;
+    border-radius: 22px;
+}
+
+.create-button {
+    flex: 1;
+    background-color: #F79421;
+    color: #FFFFFF;
+    border-radius: 22px;
+}
+
+.create-button:hover {
+    background-color: #F79421;
+}
+
+.showListP {
+    text-align: right;
+    margin-left: auto;
+}
+
+.showList {
+    /* 按钮的样式 */
+    text-align: right;
+    margin-left: auto;
+    /* 将左边的margin设置为auto，使其靠右 */
+    /* 右侧margin为50px */
+    height: 17px;
+    font: normal normal normal 16px/18px Arial;
+    letter-spacing: 0px;
+    color: #101010;
+    text-decoration: underline;
+    cursor: pointer;
+    /* 鼠标悬停时显示手型 */
+    opacity: 1;
+    /* 将span元素转为块级元素 */
+}
+
+/* createModal */
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-body {
+    padding-left: 3rem;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+.form-group {
+    padding: 0 !important;
+}
+
+.modal-title {
+    color: #F79421;
+}
+
+label {
+    font-weight: bold;
+}
+
+.save,.update {
+    background-color: #F79421;
+    color: #FFFFFF;
+}
+
+.save,.update:hover {
+    background-color: #F79421;
+}
+
+.accordion-header {
+    flex-wrap: nowrap;
+}
+
+.r-checkbox {
+    flex: 1;
+}
+
+.r-title {
+    flex: 20;
+}
+
+.r-logo {
+    flex: 3;
+}
+
+.titlePart {
+    background: #FFF5EA !important;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 8px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    display: flex;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+img {
+    width: 25px;
+    margin-left: 50px;
+}
+
+.logo {
+    text-align: right;
+    padding-bottom: 2%;
+    background-color: #FFF5EA !important;
+}
+
+.t-checkbox {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.title {
+    height: 17px;
+    text-align: left;
+    font: normal normal normal 16px/18px Arial;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    background-color: #FFF5EA !important;
+    margin-top: 0.5%;
+}
+
+.t-logo {
+    padding-right: 20px;
+}
+
+.time {
+    margin-top: 16px;
+    height: 17px;
+    text-align: right;
+    font: normal normal normal 16px/18px Arial;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;
+}
+
+.content {
+    height: 59px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/18px Arial;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    margin-left: 48px;
+}
+
+.part1 {
+    height: 20px;
+    font: var(--unnamed-font-style-normal) normal bold 18px/21px var(--unnamed-font-family-arial);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal bold 18px/21px Arial;
+    letter-spacing: 0px;
+    color: #FF0000;
+    opacity: 1;
+}
+
+.part2 {
+    height: 17px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/23px var(--unnamed-font-family-arial);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-101010);
+    text-align: center;
+    font: normal normal normal 16px/23px Arial;
+    letter-spacing: 0px;
+    color: #101010;
+}
+
+.part3 {
+    height: 20px;
+    font: var(--unnamed-font-style-normal) normal bold 18px/23px var(--unnamed-font-family-arial);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-101010);
+    text-align: center;
+    font: normal normal bold 18px/23px Arial;
+    letter-spacing: 0px;
+    color: #101010;
+}
+
+
+.deleteCss{
+    text-align: center;
+    padding: 75px;
+}
+
+.drop{
+    margin-left: 100px;
+}

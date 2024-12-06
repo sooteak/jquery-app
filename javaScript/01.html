@@ -1,0 +1,25 @@
+<div id='table-${showList[i].id}' class="table">
+    <div class="titlePart">
+        <div class="t-checkbox" style="flex-grow: 0.5;">
+            <input type="checkbox" class="checkbox" onclick="isActive(${showList[i].id})" ${showList[i].complete
+                ? 'checked' : '' }>
+        </div>
+        <div class="t-title" style="flex-grow: 10;">
+            <p class="title">${title}</p>
+        </div>
+        <div class="t-logo" style="flex-grow: 0.5;">
+            <div class="logo">
+                <img src="logo/edit.png" class="edit" onclick="edit(${showList[i].id})" alt="edit">
+                <img src="logo/delete.png" class="delete" onclick="dlt(${showList[i].id})" alt="delete">
+                <img src="logo/down.png" class="hide" id="toggle-icon-${i}" onclick="toggleContent(${i})" alt="up">
+            </div>
+        </div>
+    </div>
+    <div class="task-content" id="task-content-${i}" style="display: none;">
+        <div colspan="2">
+            <div class="time">
+                <p>Last Modified ${monthName} ${date} ${year} at ${hour}:${minute}${ampm}</p>
+            </div>
+            <div class="content">${showList[i]?.content ?? ''}</div>
+        </div>
+    </div>
